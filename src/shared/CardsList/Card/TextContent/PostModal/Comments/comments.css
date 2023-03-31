@@ -1,0 +1,21 @@
+.comments {
+  padding-top: 23px;
+}
+
+.commentsSorted {
+  padding-top: 35px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid var(--greyD9);
+}
+
+.commentSortedText {
+  color: var(--grey99);
+}
+
+.commentSortedBtn {
+  color: var(--orange);
+  padding-right: 15px;
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg width="13" height="7" viewBox="0 0 13 7" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M6.5 7L5.57483e-07 0.623141L0.703795 -1.55181e-06L6.5 5.6864L12.2962 -5.38365e-07L13 0.623142L6.5 7Z" fill="%23CC6633"/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  background-position: right center;
+}

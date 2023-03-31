@@ -1,0 +1,51 @@
+.modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+
+.modalContainer {
+  max-width: 960px;
+  max-height: 80%;
+  overflow-x: scroll;
+  background-color: var(--white);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.15);
+  border-radius: 7px;
+  padding: 52px 60px;
+}
+
+.modalHeader {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.modalHeader > [class^='textcontent__textContent'] {
+  flex-basis: 100%;
+}
+
+.modalHeader [class^="title__postLink"] {
+  -webkit-line-clamp: initial;
+}
+
+.modalHeader [class^="title__postLink"]::after {
+  content: none;
+}
+
+.controls {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid var(--greyD9);
+  margin-bottom: 1rem;
+}
+
+.controlsText {
+  white-space: nowrap;
+  color: var(--grey99);
+}

@@ -1,0 +1,46 @@
+.commentInput {
+  width: 100%;
+  min-height: 100px;
+  padding: 16px 18px;
+  margin-bottom: -4px;
+  border: 1px solid #D9D9D9;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.formControls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: var(--greyE5);
+  border-radius: 0px 0px 3px 3px;
+}
+
+.controlList {
+  display: inherit;
+  flex-direction: inherit;
+  align-items: inherit;
+  padding: 0 19px;
+}
+
+.controlItem:not(:last-child) {
+  margin-right: 26px;
+}
+
+.formBtn {
+  padding: 17px 50px;
+  margin-left: auto;
+  
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--white);
+
+  background: var(--orange);
+  border-radius: 0px 0px 3px 0px;
+}
+
+@media screen and (min-width: 1400px) {
+  .controlBtn:hover svg path {
+    fill: var(--orange);
+  }
+}

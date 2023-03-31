@@ -1,0 +1,70 @@
+.commentWrapper {
+  padding-left: 26px;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.commentWrapper::after {
+  content: "";
+  position: absolute;
+  margin-left: 6px;
+  left: 0;
+  top: 36px;
+  bottom: 0;
+  border: 3px solid var(--greyD9);
+}
+
+.commentWrapper .commentWrapper::after {
+  top: 70px;
+}
+
+.commentWrapper .commentWrapper {
+  margin-top: 0;
+  padding-top: 35px;
+}
+
+.commentatorWrapper {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+}
+
+.counter {
+  position: absolute;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+.counterDown {
+  transform: rotate(180deg);
+}
+
+.created {
+  margin-left: 10px;
+}
+
+.controlList {
+  display: flex;
+  gap: 20px;
+}
+
+.controlBtn {
+  display: inline-flex;
+  align-items: center;
+}
+
+.avatarWrapper {
+  width: 50px;
+}
+
+.avatarWrapper img {
+  width: 100%;
+}
+
+.buttonText {
+  margin-left: 5px;
+  color: var(--grey99);
+}

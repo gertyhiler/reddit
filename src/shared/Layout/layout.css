@@ -1,0 +1,6 @@
+.layout {
+  max-width: 1400px;
+  margin: 0 auto;
+  max-height: 100vh;
+  overflow-y: auto;
+}

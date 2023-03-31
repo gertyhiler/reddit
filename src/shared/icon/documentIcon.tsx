@@ -1,0 +1,9 @@
+import React from 'react';
+
+export function DocumentIcon() { // width="16" height="20"
+  return (
+    <>
+    <path d="M10 0H2C0.9 0 0.0100002 0.9 0.0100002 2L0 18C0 19.1 0.89 20 1.99 20H14C15.1 20 16 19.1 16 18V6L10 0ZM12 16H4V14H12V16ZM12 12H4V10H12V12ZM9 7V1.5L14.5 7H9Z" fill="#999999"/>
+    </>
+  )
+}
